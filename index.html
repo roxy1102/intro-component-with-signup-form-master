@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+ 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./index.js"></script>
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <div class="text">
+    <h1>Learn to code by <br>
+      watching others</h1>
+
+      <p>See how experienced developers solve problems in real-time.<br>
+         Watching scripted tutorials is great, but understanding how <br> 
+          developers think is invaluable. </p>
+  </div>
+
+  <Form id="signup-form">
+      <div class="try">
+ 
+      <button id="Try"> <strong>Try it free 7 $days </strong> then $20/mo. thereafter</button>
+    <br> 
+  </div>
+  
+       <label for="fname"></label> <br>
+       <input type="text" id="fname" name="fname" required placeholder="Nom"> <br>
+
+       <label for="LastName"></label> <br>
+       <input type="text" id="LastName" name="LastName" required  placeholder="Prénom"> <br>
+
+       <label for="Email"></label> <br>
+       <input type="email" id="email" name="Email" required placeholder="Email" > <br>
+
+       <label for="Password"></label> <br>
+       <input type="password" id="password" name="Password" required placeholder="Password"> <br> <br>
+
+       <button  type="submit" id="submit" onclick="myFunction()">Claim your free trial </button> 
+        <p id="error-message"></p>
+       <h5>By clicking the button, you are agreeing to our <span style="color: red;" >Terms and Services</span></h5>
+
+  </Form>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Rokheya HANE</a>.
+    </p>
+  </footer>
+</body>
+</html>

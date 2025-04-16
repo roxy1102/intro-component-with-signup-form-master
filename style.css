@@ -1,0 +1,84 @@
+body {
+    background-image: url(../images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    background-color:  hsl(0, 100%, 74%) ;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    color: white;
+    font-size:  16px;
+    margin: 30px ;
+    padding: 33px;
+
+}
+.text h1 {
+    font-size: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text p {
+    font-size: 20px;
+    
+}
+#Try {
+    color: white;
+    background-color:  hsl(248, 32%, 49%);
+    height: 50px;
+    border-radius: 10px;
+    width: 630px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+#signup-form {
+   background-color: aliceblue;
+   padding:20px;
+   padding-top: 0px;
+   margin: 13px;
+   width: min-content;
+   border-radius: 23px;
+}
+#signup-form input {
+    height: 50px;
+    width: 100%;
+    border-style:outset;
+    border-radius: 13px;
+    
+}
+#submit {
+    background-color: hsl(154, 59%, 51%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 60px;
+    width: 100%;
+    border: none;
+    color:  white;
+    font-size: 29px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h5 {
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+#error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+input:focus {
+    outline: none;
+    border: 2px solid #4A90E2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+  
+  button:hover {
+    background-color: #4A90E2;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
