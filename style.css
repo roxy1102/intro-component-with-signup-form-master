@@ -2,8 +2,8 @@ body {
     background-image: url(bg-intro-desktop.png);
     background-repeat: no-repeat;
     background-color:  hsl(0, 100%, 74%) ;
-    height: 85vh;
-    margin: 0px;
+    height: 100vh;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
