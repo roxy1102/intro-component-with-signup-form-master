@@ -2,7 +2,7 @@ body {
     background-image: url(bg-intro-desktop.png);
     background-repeat: no-repeat;
     background-color:  hsl(0, 100%, 74%) ;
-    height: 80vh;
+    height: 85vh;
     margin: 0px;
     display: flex;
     justify-content: center;
